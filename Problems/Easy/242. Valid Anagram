@@ -1,8 +1,9 @@
-242. Valid Anagram
+/*242. Valid Anagram
 https://leetcode.com/problems/valid-anagram/
 
 Time complexity = O(nlogn)
 space Complexity = O(1)
+*/
 
  bool isAnagram(string s, string t) {
        //sort both the strings and check weather they are equal or not
@@ -16,8 +17,9 @@ space Complexity = O(1)
     }
 	
 	
-Time complexity = O(n)
+/*Time complexity = O(n)
 space Complexity = O(S+T)
+*/
 
 bool isAnagram(string s, string t) {
       map<char,int> mp;
@@ -39,8 +41,9 @@ bool isAnagram(string s, string t) {
         return mp==mp1?true:false; //check if two maps are equal 
     }
 	
-Time complexity = O(n)
+/*Time complexity = O(n)
 space Complexity = O(S)
+*/
 
 bool isAnagram(string s, string t) {
       map<char,int> mp;
