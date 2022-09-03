@@ -14,7 +14,7 @@
 //Time Complexity O(n) Space complexity O(1)
 
 public ListNode detectCycle(ListNode head) {
-      ListNode meet = ListNodeDetectMeet(head);
+      ListNode meet = ListNodeDetectMeet(head); //find the mid of the linked list
       ListNode curr =  head;
       if(meet==null)
           return null;
